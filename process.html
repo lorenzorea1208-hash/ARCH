@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metodo — Luciano Rea</title>
+  <meta name="description" content="Metodo — Luciano Rea Studio di Architettura. Ascoltare, Osservare, Progettare, Costruire.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="process">
+  <div class="noise"></div>
+  <div class="cursor"><span></span></div>
+  <div class="page-transition"><div class="pt-label"></div></div>
+
+  <header>
+    <a class="brand" href="index.html" data-transition="Home">
+      Luciano Rea
+      <span data-i18n="brand.sub">Architettura · Consulenza · Design</span>
+    </a>
+    <div class="header-right">
+      <nav>
+        <a href="index.html" data-page="home" data-transition="Home" data-i18n="nav.home">Home</a>
+        <a href="works.html" data-page="works" data-transition="Progetti" data-i18n="nav.works">Progetti</a>
+        <a href="about.html" data-page="about" data-transition="Studio" data-i18n="nav.about">Studio</a>
+        <a href="process.html" data-page="process" data-transition="Metodo" data-i18n="nav.process">Metodo</a>
+        <a href="contact.html" data-page="contact" data-transition="Contatti" data-i18n="nav.contact">Contatti</a>
+      </nav>
+      <div class="lang" data-lang>
+        <button class="lang-toggle" aria-haspopup="true" aria-expanded="false">
+          <span class="lang-code">IT</span>
+          <span class="lang-caret"></span>
+        </button>
+        <div class="lang-panel" role="menu">
+          <button class="lang-opt" data-lang-set="it" aria-selected="true">Italiano <span class="lang-opt-code">IT</span></button>
+          <button class="lang-opt" data-lang-set="en" aria-selected="false">English <span class="lang-opt-code">EN</span></button>
+        </div>
+      </div>
+    </div>
+    <button class="menu-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="label" data-reveal data-i18n="process.label">Metodo</span>
+        <h1 data-lines>
+          <span class="l" data-i18n="process.hero.l1">Quattro gesti,</span>
+          <span class="l" data-i18n="process.hero.l2">un solo metodo.</span>
+        </h1>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="process-step">
+        <div class="num">01</div>
+        <div class="step-name" data-i18n="step01.name">Ascoltare</div>
+        <p class="step-desc" data-i18n="step01.desc">Ogni progetto nasce dall'ascolto: del luogo, del cliente, del valore che l'intervento dovrà custodire nel tempo.</p>
+      </section>
+
+      <section class="process-step">
+        <div class="num">02</div>
+        <div class="step-name" data-i18n="step02.name">Osservare</div>
+        <p class="step-desc" data-i18n="step02.desc">La lettura del paesaggio, della luce e delle preesistenze definisce le regole silenziose che il progetto dovrà rispettare.</p>
+      </section>
+
+      <section class="process-step">
+        <div class="num">03</div>
+        <div class="step-name" data-i18n="step03.name">Progettare</div>
+        <p class="step-desc" data-i18n="step03.desc">Concept, proporzioni, materia e dettaglio: il disegno traduce le relazioni tra spazio, luce e persone in forma costruibile.</p>
+      </section>
+
+      <section class="process-step">
+        <div class="num">04</div>
+        <div class="step-name" data-i18n="step04.name">Costruire</div>
+        <p class="step-desc" data-i18n="step04.desc">Direzione estetica e controllo del dettaglio fino alla consegna: l'opera realizzata deve coincidere con l'idea.</p>
+      </section>
+    </div>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="closing">
+      <div class="closing-media">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=2200&q=85" alt="Villa contemporanea">
+      </div>
+      <div class="closing-inner">
+        <h2 data-lines>
+          <span class="l" data-i18n="closing.l1">Costruiamo qualcosa</span>
+          <span class="l" data-i18n="closing.l2">di significativo.</span>
+        </h2>
+        <a class="cta" href="contact.html" data-transition="Contatti" data-reveal data-delay="0.4" data-i18n="cta.contact">Contatti</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Luciano Rea Studio di Architettura</span>
+    <span>Como · Sora</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
